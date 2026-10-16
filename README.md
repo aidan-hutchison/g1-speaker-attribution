@@ -4,7 +4,7 @@ When several people share a room with a robot, a spoken command does not say who
 
 Everything runs on the robot's on-board computer under ROS 2. The person tracker is geometric and needs no training data.
 
-- **Demo video:** [YouTube](https://youtu.be/gGRj7pOAezY) <!-- replace once uploaded -->
+- **Demo video:** [YouTube](https://youtu.be/YceLhczXzpk) <!-- replace once uploaded -->
 - **Dissertation:** A. T. Hutchison, *Speaker Attribution by Fusing Acoustic Direction-of-Arrival with 3D LiDAR Person Tracking on a Humanoid Robot*, BAdvCompSc (Hons) dissertation, The University of Western Australia, 2026.
 
 ---
