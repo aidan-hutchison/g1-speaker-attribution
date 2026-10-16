@@ -1,0 +1,11 @@
+# Python packages for the ROBOT's system Python 3.8 (do not use conda: Foxy's rclpy is built for system Python).
+# The first three versions are the ones installed on the evaluated robot.
+numpy==1.24.4
+scipy==1.10.1
+scikit-learn==1.3.2
+vosk          # speech recognition (voice_command_node); version used on the robot: verify with `pip3 show vosk`
+pyusb         # ReSpeaker USB control (tuning.py); version used on the robot: verify with `pip3 show pyusb`
+# Not on PyPI, install from source (see README):
+#   unitree_sdk2py   https://github.com/unitreerobotics/unitree_sdk2_python
+# ROS 2 packages (apt):
+#   ros-foxy-sensor-msgs-py

@@ -1,0 +1,4 @@
+# Lets a non-root user read/write the ReSpeaker USB Mic Array v2.0 (XMOS XVF-3000) control interface,
+# which tuning.py and speaker_attribution_node.py use for DOAANGLE, VOICEACTIVITY and GAMMAVAD_SR.
+# Install:  sudo cp config/99-respeaker.rules /etc/udev/rules.d/ && sudo udevadm control --reload-rules && sudo udevadm trigger
+SUBSYSTEM=="usb", ATTR{idVendor}=="2886", ATTR{idProduct}=="0018", MODE="0666"

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+bags/
+logs/
+*.log
+*.npz
+*.db3
+vosk-model*/
