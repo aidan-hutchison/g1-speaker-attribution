@@ -190,4 +190,4 @@ docs/                          architecture figures
 
 ## Licence
 
-<!-- Choose a licence (e.g. MIT) after checking with your supervisor; tuning.py keeps Seeed's original terms. -->
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
